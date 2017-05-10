@@ -1,4 +1,4 @@
-###First Access
+### First Access
 - 아래와 같은 원초적인 코드를 짬
 - 초기 코드에서 공통적인 부분, 반복적인 부분을 매개변수(parameter)로 치환하려는 노력을 함
 
@@ -38,7 +38,7 @@ public class CalCount {
 	}
 ```
 
-###Second Access
+### Second Access
 - 공통적인 부분 : 'change = change - (직전 금액 매수*직전 금액);' 수식 찾아냄
 
 ```
@@ -109,7 +109,7 @@ public void calcount2(int money, int price) {
 		return change;
 	}
 ```
-###Fourth Access
+### Fourth Access
 
 * eachPrice(int chage, int unit) { } - 메소드 생성
 * change = eachPrice(change, unit) - 메소드 for문 사용하여 자동 반복
